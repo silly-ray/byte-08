@@ -36,10 +36,10 @@ class ComponentDesigner:
         )
         table.add_column(Align.center("Browser ID"), style="cyan bold", justify="center")
         table.add_column(Align.center("Browser Name"), style="bold")
-        table.add_row(Align.center("1️⃣"), Align.center("🧩 Google Chrome 🧩"))
-        table.add_row(Align.center("2️⃣"), Align.center("🦅 Microsoft Edge 🦅"))
-        table.add_row(Align.center("3️⃣"), Align.center("🦊 Mozilla Firefox 🦊"))
-        table.add_row(Align.center("4️⃣"), Align.center("🧭 Safari 🧭"))
+        table.add_row(Align.center("[bold cyan]1"), Align.center("🧩 Google Chrome 🧩"))
+        table.add_row(Align.center("[bold cyan]2"), Align.center("🦅 Microsoft Edge 🦅"))
+        table.add_row(Align.center("[bold cyan]3"), Align.center("🦊 Mozilla Firefox 🦊"))
+        table.add_row(Align.center("[bold cyan]4"), Align.center("🧭 Safari 🧭"))
         return table
 
     @staticmethod
